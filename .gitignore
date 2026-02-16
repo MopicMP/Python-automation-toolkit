@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files created by tools
+*.json
+!examples/*.json
+*.csv
+*.xlsx
+!examples/*.xlsx
+*.log
+
+# Backup folders created by backup_system.py
+backup_*/
+
+# Environment variables
+.env
